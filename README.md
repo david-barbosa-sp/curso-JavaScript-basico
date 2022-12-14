@@ -1,1 +1,1 @@
-# curso-JavaScript-basico
+# Treinamento básico de JavaScript
