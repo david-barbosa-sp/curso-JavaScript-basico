@@ -14,8 +14,11 @@ for(let contador = 0; contador < listaDeTeclas.length; contador++){
         tocaSom(idTecla);
     }
 
-    tecla.onkeydown = function(){
-        tecla.classList.add('ativa');
+    tecla.onkeydown = function(e){
+        if(e.code === 'Enter' || e.code === 'Space'){
+            tecla.classList.add('ativa');
+        }
+        
     }
     
     tecla.onkeyup = function(){
